@@ -1,0 +1,49 @@
+
+.contenedor{
+    background-color:#0059ffad;
+      
+        width: 1300px;
+        margin: auto;
+        padding: 12px 0;
+        display: flex;
+        
+}
+        .contenedor-conciertos{
+            width: 90%;
+            justify-self: start;
+        
+    
+        }
+  .col {
+    color: antiquewhite; 
+  }        
+    
+
+#confbsas{
+ color: antiquewhite;  
+
+}
+.card-bodyy{
+ width: 785px; height: 320px;
+background-color:black ;
+}
+.card-texto{
+    color: antiquewhite;    
+    width: 500px 
+}
+#confbsas{
+
+   color: antiquewhite;
+}
+.card-titles{
+    color: antiquewhite;  
+}
+.form-floating{
+    width: 670px; height: 180px;  
+    left:340px;
+
+#cole{
+    width: 400px;
+    height: 200px;
+}  
+

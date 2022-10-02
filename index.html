@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css"
+  
+  </head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+     <body>
+      
+
+               <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <div>
+        <img src="ima/codoacodo.png" id="imagencodo" alt="codoacodo" width="200 "  >
+        <a class="navbar-brand" href="#" id="confbsas" >Conf Bs As</a>
+        
+      </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" href="#">La Conferencia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Los Oradores</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">El Lugar y la Fecha</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Conviértete en Orador</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" id="tickets">Comprar Tickets</a>
+      </li>
+    </ul>
+      </div>
+    </nav>
+
+
+
+    <div class="card text-bg-dark">
+      <img src="ima/ba1.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+          <br>
+          <br>
+          <br>
+          <br> 
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        <h3 class="card-title"> <p class="text-end"> Conf Bs As</p>  </h3> 
+        <br>
+        <p class="card-text"><p class="text-end"> Bs As llega por primera vez a la Argentina. Un evento para compartir
+      </p></p> 
+      <p class="card-text"><p class="text-end">con nuestra comunidad el conocimiento y la experiencia de los expertos que </p>
+     </p></p> 
+      <p class="card-text"><p class="text-end">están creando el futuro de internet. Ven a conocer a miembros del 
+      </p></p>
+      <p class="card-text"><p class="text-end"> evento, a otros estudiantes de Codo a Codo y los oradores de primer
+      </p></p>
+      <p class="card-text"><p class="text-end"> nivel que tenemos para ti. Te esperamos!
+      </p></p> 
+            </p></p>
+        
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary "disabled type="button">Quiero ser orador</button>
+              <button class="btn btn-success" type="button">Comprar Tickets</button>
+            </div> 
+         </div>
+    </div>
+    <p class="text-center">CONOCE A LOS </p>
+    <h1 class="card-title"> <p class="text-center">ORADORES </p>  </h1> 
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="cole">
+        <div id="tarjetas" class="card h-100">
+          <img src="ima/steve.jpg" class="card-img-top" alt="steve">
+          <br>
+          
+            <form method="POST" action="{{route('admin.admins.destroy',$admin->id)}}" onsubmit="return ConfirmarBorrar()">
+               <button id="botonprimero" type="button" class="btn btn-warning">Javascript</button>
+               <button id="botonreact" type="button" class="btn btn-info">React</button>
+            </form>
+        
+          <div class="card-body">
+            <h5 class="card-title">Steve Jobs</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minus et dolores similique qui facilis reiciendis incidunt quis eligendi, corrupti ut vel molestiae quia consectetur impedit ducimus tempora nam accusantium.</p>
+          </div>
+        </div>
+      </div>
+      <div id="menutarjetas" class="cole">
+        <div id="tarjetas" class="card h-100">
+          <img src="ima/bill.jpg" class="card-img-top" alt="bill">
+          <br>
+          
+            <form method="POST" action="{{route('admin.admins.destroy',$admin->id)}}" onsubmit="return ConfirmarBorrar()">
+               <button id="botonprimero" type="button" class="btn btn-warning">Javascript</button>
+               <button id="botonreact" type="button" class="btn btn-info">React</button>
+            </form>
+        
+          <div class="card-body">
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque nemo maiores nisi enim impedit ut reprehenderit quas totam, et dolorum, culpa veritatis minus illo aspernatur temporibus molestias quibusdam rerum iusto!</p>
+          </div>
+        </div>
+      </div>
+      <div class="cole">
+        <div id="tarjetas" class="card h-100">
+          <img src="ima/ada.jpeg" class="card-img-top" alt="ada">
+          <br>
+          
+            <form method="POST" action="{{route('admin.admins.destroy',$admin->id)}}" onsubmit="return ConfirmarBorrar()">
+              <button id="botonprimero" type="button" class="btn btn-secondary">Negocios</button>
+              <button type="button" class="btn btn-danger"><b>Startups</b></button>
+            </form>
+        
+          <div class="card-body">
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ratione animi, fuga reprehenderit adipisci ullam iure sit facere perspiciatis doloremque. Consequatur quas perferendis enim, vero maxime suscipit debitis. Corporis, magnam?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
+    <div class="card mb-3" style="max-width: 1500px;">
+      <div class="row g-1">
+        
+        <br>
+      
+        <div class="col-md-5">
+          <img src="ima/honolulu.jpg" width="700" height="320" alt="...">
+        </div>
+        <div class="col-md-5">
+          <div class="card-bodyy"> 
+            <h5 class="card-titles">Bs As -Octubre</h5>
+            <p class="card-texto">Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos. Honolulu es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y estado de Honolulu han formado una ciudad-condado consolidad que cubre toda la ciudad (aproximadamente 600km2 de superficie). </p>
+        
+            <button type="button" class="btn btn-outline-light">Conocé más</button>
+          </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <p class="text-center"> CONVIÉRTETE EN UN</p>
+            <br>
+            <h4 class="card-title"> <p class="text-center">ORADOR </p>  </h4> 
+            <br>
+            <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+          </div>
+  
+          <div class="row justify-content-center">
+            <div class="col-3 ">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+            </div>
+            <div class="col-3">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+            </div>
+          </div>
+          <br>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"" width: 65px " ></textarea>
+            <label for="floatingTextarea2">Sobre que quieres hablar</label>
+          
+   <p class="text-left">Recuerda incluir un titulo para tu charla</p>  <p class="text-center">
+         <div class="d-grid gap-1">
+         <button class="btn btn-success" type="button">Enviar</button>
+        </div>
+      </div>
+      <br>
+      
+      <div class="contenedor">
+        <div class="contenedor-conciertos">
+          <div class="row">
+            <div class="col">
+              Preguntas    frecuentes
+            </div>
+            <div class="col">
+              Contactos
+            </div>
+          <div class="col">
+            Prensa
+          </div>
+          <div class="col">
+            Conferencia
+          </div>
+          <div class="col">
+            Terminos y condiciones
+          </div>
+          <div class="col">
+            Privacidad
+          </div>
+          <div class="col">
+            Estudiantes
+          </div>
+        </div>
+            </body>
+</html>
